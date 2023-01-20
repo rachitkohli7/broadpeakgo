@@ -12,7 +12,7 @@ type Broadpeak struct {
 	apiKey string
 }
 
-func (b Broadpeak) getAllSources() {
+func (b Broadpeak) GetAllSources() {
 
 	bearer := "Bearer " + b.apiKey
 
