@@ -12,6 +12,11 @@ type Broadpeak struct {
 	apiKey string
 }
 
+func GetBroadPeak(apiKey string) Broadpeak {
+	b := Broadpeak{apiKey}
+	return b
+}
+
 func (b Broadpeak) GetAllSources() {
 
 	bearer := "Bearer " + b.apiKey
