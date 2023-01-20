@@ -8,11 +8,11 @@ import (
 	"net/http"
 )
 
-type broadpeakgo struct {
+type Broadpeak struct {
 	apiKey string
 }
 
-func (b broadpeakgo) getAllSources() {
+func (b Broadpeak) getAllSources() {
 
 	bearer := "Bearer " + b.apiKey
 
