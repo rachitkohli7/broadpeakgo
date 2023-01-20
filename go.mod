@@ -1,3 +1,3 @@
-module github.com/rachitkohli7/braodpeakgo
+module github.com/rachitkohli7/broadpeakgo
 
 go 1.19
